@@ -1,0 +1,43 @@
+{
+	"SurveyTitle": "Survey 1",
+	"SurveyNumber": "1",
+	"Questions":
+	[
+		{
+			"QuestionNumber":"1",
+			"Type":"0",
+			"Body": "Choose your gender",
+			"Options":["Male", "Female"],
+			"Required": 1,
+			"NextQuestionNumber":"2"
+		},
+		{
+			"QuestionNumber":"2",
+			"Type":"1",
+			"Body": "Pick few colours",
+			"Options":["White", "Red", "Blue", "Green", "Pink", "Black", "Yellow"],
+			"Required": 1,
+			"NextQuestionNumber":"3"
+		},
+		{
+			"QuestionNumber":"3",
+			"Type":"3",
+			"Body": "http://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1",
+			"NextQuestionNumber":"5"
+		},
+		{
+			"QuestionNumber":"5",
+			"Type":"1",
+			"Body": "Question 5 ?",
+			"Options":["10", "11", "12"],
+			"Required": 0,
+			"NextQuestionNumber":"4"
+		},
+		{
+			"QuestionNumber":"4",
+			"Type":"2",
+			"Body": "Question 4 ?",
+			"Required": 1
+		}
+	]
+}

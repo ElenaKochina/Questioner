@@ -1,0 +1,92 @@
+﻿@model Questioner.Models.ViewModels.QuestionViewModel
+@{
+    ViewBag.Title = "Question";
+}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/login-page.css">
+    @Scripts.Render("~/bundles/jquery")
+</head>
+
+@switch (Model.QuestionType)
+{
+    case 0:
+        using (Html.BeginForm("Answer", "Home", new { QuestionId = Model.QuestionId }))
+        {
+            <h2>@Html.Label(Model.Body)</h2>
+            foreach (var option in Model.Options)
+            {
+                <div id="radioButton">
+                    @Html.RadioButtonFor(model => model.Options, option.Id, new { Id = option.Id, Name = "SelectedOptions" }) @Html.Label(option.Body)
+                </div>
+            }
+            @Html.CheckBox("OtherIsChecked", false, new { id = "otherCheckBox" }) @Html.Label("Other")
+
+            <div id="otherTextBox">
+                @Html.TextAreaFor(model => model.Other, new { @class = "form-control" })
+            </div>
+            <br />
+
+            @Html.ValidationMessageFor(model => model.SelectedOptions)
+
+            @Html.HiddenFor(x => x.Body)
+            @Html.HiddenFor(x => x.QuestionType)
+            @Html.HiddenFor(x => x.NextQuestionNumber)
+            @Html.HiddenFor(x => x.Required)
+            <br />
+            <input type="submit" value="Next" />
+        }
+        break;
+    case 1:
+        using (Html.BeginForm("Answer", "Home", new { QuestionId = Model.QuestionId }))
+        {
+            <h2>@Html.Label(Model.Body)</h2>
+            for (int i = 0; i < Model.Options.Count; i++)
+            {
+                <div>
+                    @Html.CheckBoxFor(model => model.AnswersCheckBox[i], new { Name = "SelectedOptions", Id = Model.Options[i].Id, Value = Model.Options[i].Id }) @Html.Label(Model.Options[i].Body)
+                </div>
+            }
+            @Html.CheckBox("OtherIsChecked", Model.OtherIsChecked, new { id = "otherCheckBox" }) @Html.Label("Other")
+
+            <div id="otherTextBox">
+                @Html.TextAreaFor(model => model.Other, new { @class = "form-control" })
+            </div>
+            <br />
+
+            @Html.ValidationMessageFor(model => model.SelectedOptions)
+
+            @Html.HiddenFor(x => x.Body)
+            @Html.HiddenFor(x => x.QuestionType)
+            @Html.HiddenFor(x => x.NextQuestionNumber)
+            @Html.HiddenFor(x => x.Required)
+            <input type="submit" value="Next" />
+        }
+        break;
+    case 2:
+        using (Html.BeginForm("Text", "Home", new { QuestionId = Model.QuestionId }))
+        {
+            <h2>@Html.Label(Model.Body)</h2>
+            <div>
+                @Html.TextAreaFor(model => model.Other, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Other)
+            </div>
+            @Html.HiddenFor(x => x.Body)
+            @Html.HiddenFor(x => x.QuestionType)
+            @Html.HiddenFor(x => x.NextQuestionNumber)
+            @Html.HiddenFor(x => x.Required)
+            <input type="submit" value="Next" />
+        }
+        break;
+    case 3:
+        using (Html.BeginForm("Video", "Home"))
+        {
+            <iframe type="text/html" width="640" height="385" src="@string.Format(Model.Body)" frameborder="0"></iframe>
+            @Html.HiddenFor(x => x.NextQuestionNumber)
+            <input type="submit" value="Next" />
+        }
+        break;
+    default:
+        break;
+}
+<script src="~/Content/Scripts/othertextbox.js"></script>

@@ -1,0 +1,66 @@
+﻿@model Questioner.Models.ViewModels.UserRegisterViewModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/login-page.css">
+    @Scripts.Render("~/bundles/jquery")
+</head>
+
+@using (Html.BeginForm("Register", "Authentication"))
+{
+    @Html.ValidationSummary(true)
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name, new { @class = "control-label" })
+        <div>
+            @Html.TextAreaFor(model => model.Name, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Email, new { @class = "control-label" })
+        <div>
+            @Html.TextAreaFor(model => model.Email, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Password, new { @class = "control-label" })
+        <div>
+            @Html.TextAreaFor(model => model.Password, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Password)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ConfirmPassword, new { @class = "control-label" })
+        <div>
+            @Html.TextAreaFor(model => model.ConfirmPassword, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.ConfirmPassword)
+        </div>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Register" class="btn btn-info" />
+    </div>
+    @*<input type="text" placeholder="name" />
+            <input type="password" placeholder="password" />
+            <input type="text" placeholder="email address" />
+            <button>create</button>
+            <p class="message">Already registered? <a href="#">Sign In</a></p>
+        </div>
+        <div class="login-form">
+            <input type="text" placeholder="username" />
+            <input type="password" placeholder="password" />
+            <button>login</button>
+            <p class="message">Not registered? <a href="#">Create an account</a></p>*@
+}
+
+<p>Already registered?</p>
+<div>
+    @Html.ActionLink("Login", "Login", "Authentication", new { area = "" }, new { @class = "btn btn-info" }) <br />
+</div>
+<script src="~/Content/Scripts/loginpage.js"></script>

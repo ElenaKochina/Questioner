@@ -1,0 +1,184 @@
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\Questioner.dll.config
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\Questioner.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\Questioner.pdb
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\csc.exe
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\csc.exe.config
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\csc.rsp
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\csi.exe
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\csi.exe.config
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\csi.rsp
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.AppContext.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Console.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.IO.Compression.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Security.Claims.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.ValueTuple.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\vbc.exe
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\vbc.exe.config
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\vbc.rsp
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\AutoMapper.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\EntityFramework.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.ValueTuple.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.Web.Helpers.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.Web.Mvc.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.Web.Optimization.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.Web.Razor.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.Web.WebPages.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\WebGrease.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\AutoMapper.pdb
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\AutoMapper.xml
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\EntityFramework.xml
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.ValueTuple.xml
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.Web.Helpers.xml
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.Web.Mvc.xml
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.Web.Optimization.xml
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.Web.Razor.xml
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.Web.WebPages.xml
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Administrator\source\repos\Questioner\Questioner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\source\repos\Questioner\Questioner\obj\Debug\Questioner.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Questioner\Questioner\obj\Debug\Questioner.csproj.CopyComplete
+C:\Users\Administrator\source\repos\Questioner\Questioner\obj\Debug\Questioner.dll
+C:\Users\Administrator\source\repos\Questioner\Questioner\obj\Debug\Questioner.pdb
+C:\Users\Administrator\source\repos\Questioner\Questioner\obj\Debug\Questioner.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Questioner\Questioner\obj\Debug\Questioner.Migrations.InitialCreate.resources
+C:\Users\Administrator\source\repos\Questioner\Questioner\obj\Debug\Questioner.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\Questioner\Questioner\obj\Debug\Questioner.Migrations.RequiredField.resources
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\Questioner.dll.config
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\Questioner.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\Questioner.pdb
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\csc.exe
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\csc.exe.config
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\csc.rsp
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\csi.exe
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\csi.exe.config
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\csi.rsp
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.AppContext.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Console.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.IO.Compression.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Security.Claims.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.ValueTuple.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\vbc.exe
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\vbc.exe.config
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\vbc.rsp
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\VBCSCompiler.exe
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\Antlr3.Runtime.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\AutoMapper.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\EntityFramework.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\EntityFramework.SqlServer.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\Newtonsoft.Json.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.ValueTuple.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.Web.Helpers.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.Web.Mvc.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.Web.Optimization.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.Web.Razor.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.Web.WebPages.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.Web.WebPages.Razor.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\WebGrease.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\AutoMapper.pdb
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\AutoMapper.xml
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\EntityFramework.xml
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\EntityFramework.SqlServer.xml
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.ValueTuple.xml
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.Web.Helpers.xml
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.Web.Mvc.xml
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.Web.Optimization.xml
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.Web.Razor.xml
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.Web.WebPages.xml
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.Web.WebPages.Razor.xml
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\Newtonsoft.Json.xml
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\Antlr3.Runtime.pdb
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\obj\Debug\Questioner.csprojAssemblyReference.cache
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\obj\Debug\Questioner.Migrations.InitialCreate.resources
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\obj\Debug\Questioner.Migrations.RequiredField.resources
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\obj\Debug\Questioner.csproj.GenerateResource.cache
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\obj\Debug\Questioner.csproj.CoreCompileInputs.cache
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\obj\Debug\Questioner.csproj.CopyComplete
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\obj\Debug\Questioner.dll
+C:\Users\Elena\Downloads\Questioner (1)\Questioner\Questioner\obj\Debug\Questioner.pdb

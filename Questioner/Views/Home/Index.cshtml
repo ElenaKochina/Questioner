@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/login-page.css">
+</head>
+
+<div>
+    <h1>Welcome!</h1>
+    <h3>
+        @Html.ActionLink("Begin", "Login", "Authentication", new { area = "" }, new {@class = "btn btn-info" })
+    </h3>
+</div>
+

@@ -1,0 +1,12 @@
+﻿@model Questioner.Models.Entity.Statistics
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+@foreach (var question in Model.Questions)
+{
+    @Html.ActionLink(string.Format(question.Body), "QuestionInfo", "Statistics", new { area = "" }, new { @class = "btn btn-info" }) <br />
+}
