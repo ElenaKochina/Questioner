@@ -162,6 +162,7 @@
     <Compile Include="Models\Repository\UsersRepository.cs" />
     <Compile Include="Models\Util\QuestionType.cs" />
     <Compile Include="Models\ViewModels\AnswerTextBoxViewModel.cs" />
+    <Compile Include="Models\ViewModels\QuestionInfoViewModel.cs" />
     <Compile Include="Models\ViewModels\QuestionViewModel.cs" />
     <Compile Include="Models\Repository\AnswersRepository.cs" />
     <Compile Include="Models\Repository\IRepository.cs" />
@@ -169,6 +170,7 @@
     <Compile Include="Models\Repository\QuestionsRepository.cs" />
     <Compile Include="Models\Repository\SurveysRepository.cs" />
     <Compile Include="Models\Entity\Survey.cs" />
+    <Compile Include="Models\ViewModels\StatisticsViewModel.cs" />
     <Compile Include="Models\ViewModels\UserRegisterViewModel.cs" />
     <Compile Include="Models\ViewModels\UserLoginViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -181,6 +183,7 @@
     <Content Include="Content\login-page.css" />
     <Content Include="Content\Scripts\loginpage.js" />
     <Content Include="Content\Scripts\othertextbox.js" />
+    <Content Include="Content\statistics.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

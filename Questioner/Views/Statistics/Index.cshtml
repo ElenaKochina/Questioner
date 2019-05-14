@@ -8,5 +8,5 @@
 
 @foreach (var question in Model.Questions)
 {
-    @Html.ActionLink(string.Format(question.Body), "QuestionInfo", "Statistics", new { area = "" }, new { @class = "btn btn-info" }) <br />
+    @Html.ActionLink(string.Format(question.Body), "QuestionInfo", "Statistics", new { questionId = question.Id }, new { @class = "btn btn-info"}) <br />
 }

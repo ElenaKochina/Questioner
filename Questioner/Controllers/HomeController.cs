@@ -17,7 +17,7 @@ namespace Questioner.Controllers
         QuestionsRepository questionsRepository = new QuestionsRepository();
         OptionsRepository optionsRepository = new OptionsRepository();
         AnswersRepository answersRepository = new AnswersRepository();
-        SurveysRespository surveysRespository = new SurveysRespository();
+        SurveysRepository SurveysRepository = new SurveysRepository();
         UsersRespository usersRespository = new UsersRespository();
         #endregion
 
@@ -43,7 +43,7 @@ namespace Questioner.Controllers
                 questionNumber = 1;
             }
 
-            var surveyId = surveysRespository.GetCurrentId();
+            var surveyId = SurveysRepository.GetCurrentId();
             var question = questionsRepository.Find(questionNumber, surveyId);
 
             if(question == null)
@@ -75,6 +75,9 @@ namespace Questioner.Controllers
             }
             else
             {
+                //if this user has already answered this question, delete his previous answer
+                answersRepository.DeleteIfExists(usersRespository.GetId(User.Identity.Name), answer.QuestionId);
+
                 if (answer.SelectedOptions != null)
                 {
                     foreach (var option in answer.SelectedOptions)
@@ -116,6 +119,8 @@ namespace Questioner.Controllers
         {
             if (ModelState.IsValid)
             {
+                answersRepository.DeleteIfExists(usersRespository.GetId(User.Identity.Name), answer.QuestionId);
+
                 Answer answerEntity = new Answer()
                 {
                     NextQuestionNumber = answer.NextQuestionNumber,
@@ -145,11 +150,11 @@ namespace Questioner.Controllers
         {
             var json = System.IO.File.ReadAllText(Server.MapPath(@"~/Question.json"));
             var survey = JsonConvert.DeserializeObject<Survey>(json);
-            if (surveysRespository.SurveyNotExists(survey))
+            if (SurveysRepository.SurveyNotExists(survey))
             {
-                surveysRespository.Create(survey);
+                SurveysRepository.Create(survey);
 
-                var surveyId = surveysRespository.GetCurrentId();
+                var surveyId = SurveysRepository.GetCurrentId();
                 var questions = survey.Questions;
 
                 foreach (var question in questions)

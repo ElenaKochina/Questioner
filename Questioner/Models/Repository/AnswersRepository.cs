@@ -16,6 +16,13 @@ namespace Questioner.Models.Repository
             _context.SaveChanges();
         }
 
+        public void DeleteIfExists(int userId, int questionId)
+        {
+            var answers = _context.Answers.Where(x => x.UserId == userId && x.QuestionId == questionId);
+            if (answers.Any())
+                _context.Answers.RemoveRange(answers);
+        }
+
         public Answer FirstOrDefault(Func<Answer, bool> predicate)
         {
             return _context.Answers.FirstOrDefault(predicate);

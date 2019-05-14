@@ -1,6 +1,13 @@
 ﻿@{
     ViewBag.Title = "Survey finished";
 }
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/login-page.css?v=2">
+    @Scripts.Render("~/bundles/jquery")
+</head>
+
 <h2>@ViewBag.Title.</h2>
 
 <p>Thank you for your answers!</p>
+<p>Follow @Html.ActionLink("this", "Index", "Statistics", new { area = "" })  link to see statistics</p>

@@ -7,6 +7,12 @@ namespace Questioner.Models.Entity
 {
     public class Statistics
     {
-        public IList<Question> Questions { get; set; }
+        public Survey Survey { get; set; }
+
+        public IEnumerable<Question> Questions { get; set; }
+
+        public IList<Option> Options { get; set; }
+
+        public IList<Answer> Answers { get; set; }
     }
 }

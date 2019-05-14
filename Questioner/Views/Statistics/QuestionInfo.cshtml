@@ -1,8 +1,27 @@
-﻿
+﻿@model Questioner.Models.ViewModels.QuestionInfoViewModel
 @{
     ViewBag.Title = "QuestionInfo";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/statistics.css" />
+</head>
+
 <h2>QuestionInfo</h2>
 
+<div>
+    <table>
+        <tr>
+            <th>Option</th>
+            <th>Answered</th>
+        </tr>
+        @foreach (var option in Model.Percentage)
+        {
+            <tr>
+                <td>@option.Key</td>
+                <td>@option.Value</td>
+            </tr>
+        }
+    </table>
+</div>

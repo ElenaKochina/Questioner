@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Questioner.Models.Repository
 {
-    public class SurveysRespository : IRepository<Survey>
+    public class SurveysRepository : IRepository<Survey>
     {
         private readonly QuestionerContext _context = new QuestionerContext();
 
